@@ -1,13 +1,13 @@
 <template>
   <div>
     <div class="a">
-      这一年 我们说过最晚的一句话
+      2023年7月26日
       <br />
-      在凌晨
+      你睡得很晚
       <span class="value">
-        {{ hour }}
+         01:15:13 
       </span>
-      点
+      点还在提交任务
     </div>
     <div class="b">
       <span style="font-size: 3.6vw"> {{ user }}: </span>

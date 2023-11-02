@@ -1,13 +1,13 @@
 <template>
   <div class="box">
     <div class="title">
-      <div class="a">2021</div>
+      <div class="a">2023</div>
       <div class="b">
-        WECHAT
+        HPC
         <br />
         REPORT
       </div>
-      <div class="c">年度聊天报告</div>
+      <div class="c">年度用户报告</div>
     </div>
     <div class="human">
       <div class="boy">

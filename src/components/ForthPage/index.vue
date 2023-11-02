@@ -1,15 +1,26 @@
 <template>
   <div>
     <div class="a">
-      这一年 我们说过最长的一句话 <span class="value">{{ content.length }}</span
-      >字
+      一年中 总有几个特殊的日子 <span class="value">{{ content.length }}</span
+      >
     </div>
     <div class="b">
-      {{ content.substring(0, 100) }}
+      你在2023.10.10提交了最多次数的任务
+    </div>
+    <div class="b value">
+      300次
     </div>
     <div class="c">...</div>
+    <div class="b">
+      <span class="value">2023.6.18 </span>
+      你睡得很晚
+    </div>
+    <div class="b ">
+      <span class="value">23:56:17 </span>
+      还在提交任务，还记得那天在做什么吗
+    </div>    
     <div class="d">
-      {{ time }}
+      {{ new Date() }}
     </div>
   </div>
 </template>
