@@ -7,7 +7,8 @@
       居然有
       <span class="value"> {{ count }}次</span>
     </div>
-    <div class="b">
+    <canvas id="myChart" width="400" height="260"></canvas>
+    <div class="b" id="chart">
       <img src="@/assets/images/cy.png" />
     </div>
   </div>
@@ -15,22 +16,32 @@
 
 <script>
 import { mostWord } from "@/data.json";
+
 export default {
   data() {
     return {
       ...mostWord,
+
     };
+
   },
+  methods: {
+  },
+  mounted() {
+
+  }
+
 };
 </script>
 
 <style scoped>
-.a{
+.a {
   animation-name: slide-top;
   animation-duration: 1s;
   animation-delay: 0.5s;
   animation-fill-mode: backwards;
 }
+
 .b img {
   width: 100%;
   animation-name: slide-top;

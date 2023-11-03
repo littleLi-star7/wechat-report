@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="a">
-      今年你与平台共渡了
+      今年你与平台共度了
       <span class="value"> {{ count }} </span>
       天
     </div>
