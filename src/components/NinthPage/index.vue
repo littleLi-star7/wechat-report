@@ -1,23 +1,25 @@
 <template>
   <div class="v">
     <div class="a">
-      <div class="b">#2021</div>
-      <div class="c">年度聊天报告</div>
-      <div class="d">关键词</div>
-      <div class="e">吃</div>
+      <div class="b">#2023</div>
+      <div class="c">年度收支对比报告</div>
+      <div class="d">收入</div>
+      <div class="e">40000</div>
       <div class="f"></div>
-      <div class="d">爱意词</div>
-      <div class="e">{{ b }}</div>
+      <div class="d">支出</div>
+      <div class="e">3512</div>
+      <!--<div class="e">{{ b }}</div>-->
       <div class="f"></div>
-      <div class="d">话痨月</div>
-      <div class="e" style="font-size: 5vw">{{ c }}月</div>
+      <div class="d">用户账号余额</div>
+      <!--<div class="e" style="font-size: 5vw">{{ c }}月</div>-->
+      <div class="e" style="font-size: 5vw">51815.6</div>
       <div class="f"></div>
       <div class="h">
         <img class="p" src="@/assets/images/result.png" />
         <img class="y" src="@/assets/images/cloud2.png" />
       </div>
       <div class="j">再见</div>
-      <div class="i">2021</div>
+      <div class="i">2023</div>
     </div>
   </div>
 </template>

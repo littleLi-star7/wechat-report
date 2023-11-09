@@ -1,12 +1,15 @@
 <template>
   <div>
     <div class="a">
-      你喜欢在
+      你在2023年各个月份的统计支出情况如下：
+      <!--
       <span class="value"> {{ maxMonth[0] }} </span>月 说的话最多 有<span
         class="value"
       >
+      
         {{ maxMonth[1] }} </span
       >条
+      -->
     </div>
     <div ref="chart" class="chart"></div>
   </div>
